@@ -1,0 +1,24 @@
+schema_version: 1.0
+
+target_column: Attrition
+
+columns:
+  Age:
+    dtype: int
+    required: true
+    min: 18
+    max: 70
+
+  MonthlyIncome:
+    dtype: float
+    required: true
+    min: 0
+
+  JobRole:
+    dtype: category
+    required: true
+
+  Attrition:
+    dtype: category
+    required: true
+    allowed_values: ["Yes", "No"]

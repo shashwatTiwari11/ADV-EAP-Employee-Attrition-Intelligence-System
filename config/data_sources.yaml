@@ -1,0 +1,23 @@
+data_source:
+  type: csv              # csv | database | api
+  name: employee_attrition
+
+  csv:
+    directory: data/raw
+    file_pattern: "*.csv"
+    delimiter: ","
+    encoding: "utf-8"
+
+  database:
+    db_type: postgresql          # postgresql | mysql | sqlite
+    host: localhost
+    port: 5432
+    database_name: hr_database
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    table_name: employees
+    query: null                  # optional custom SQL
+
+  versioning:
+    enabled: true
+    timestamp_format: "%Y%m%d_%H%M%S"

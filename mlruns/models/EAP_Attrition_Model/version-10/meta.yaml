@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1770960311234
+current_stage: None
+description: null
+last_updated_timestamp: 1770960311234
+name: EAP_Attrition_Model
+run_id: 9becb9cc85154ec1aa23062ac2192552
+run_link: null
+source: file:///D:/ALL%20PROJECTS/ADV%20EAP/mlruns/558112448636586557/9becb9cc85154ec1aa23062ac2192552/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///D:/ALL%20PROJECTS/ADV%20EAP/mlruns/558112448636586557/9becb9cc85154ec1aa23062ac2192552/artifacts/model
+user_id: null
+version: 10

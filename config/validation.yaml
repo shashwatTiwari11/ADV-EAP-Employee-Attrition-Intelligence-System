@@ -1,0 +1,8 @@
+missing_values:
+  max_missing_ratio: 0.05
+
+duplicates:
+  allow_duplicates: false
+
+row_count:
+  min_rows: 10
